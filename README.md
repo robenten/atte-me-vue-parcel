@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-では、ブラウザで http://localhost:1234/ を開いてみましょう。
+では、ブラウザで http&#58;//localhost:1234/example.html を開いてみましょう。
 
 2. 本番用にビルドする
 
@@ -27,3 +27,15 @@ npm run build
 ```
 
 では、distフォルダーを確認してください
+
+## 独自のHTML要素を定義する
+
+```html
+<body>
+  <div id="app">
+    <welcome></welcome>
+    <button-counter></button-counter>
+    <vue-carousel></vue-carousel>
+  </div>
+</body>
+```
